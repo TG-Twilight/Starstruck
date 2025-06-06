@@ -1,3 +1,9 @@
+<div align="left">
+<a href="/README.md">中文</a>&nbsp;|&nbsp;
+<a href="/assets/README_en-US.md">English</a> &nbsp;|&nbsp;
+<a href="https://awavenue.top/">友情客串</a> 
+</div>
+
 <p align="center">
    <img src="https://img.jsdelivr.com/raw.githubusercontent.com/TG-Twilight/Starstruck/main/assets/Starstruck.png">
 </p>
