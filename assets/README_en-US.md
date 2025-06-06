@@ -3,6 +3,7 @@
 <a href="/assets/README_en-US.md">English</a> &nbsp;|&nbsp;
 <a href="https://awavenue.top/">Guest appearances😜</a> 
 </div>
+<br>
 
 <p align="center">
    <img src="https://img.jsdelivr.com/raw.githubusercontent.com/TG-Twilight/Starstruck/main/assets/Starstruck.png">
@@ -98,7 +99,6 @@ gaearon: 1066 stars, 8000 followers
 
 - GitHub API has rate limits – **strongly recommend using a token**.
 - For repository names with spaces, replace them with `-`.
-- Users in certain regions (hi Teyvat!) may need to set up network access to GitHub.
 - This tool is intended for **research, social analysis, and academic exploration**.
 - Do not use for shady purposes or spammy behavior. Please respect GitHub’s ToS.
 
