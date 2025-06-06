@@ -2,5 +2,105 @@
    <img src="https://img.jsdelivr.com/raw.githubusercontent.com/TG-Twilight/Starstruck/main/assets/Starstruck.png">
 </p>
 
-# Starstruck
-用于查看某个项目被多少“厉害人物”关注了，写(满)论(足)文(虚)吹(荣)牛(心)逼时用。
+# 🧊 Starstruck
+
+👀 **Starstruck** 是一个能让你快速统计某个 GitHub 仓库被哪些“显赫人物” Star 过的工具，顺便也能看看这些大佬各自的“影响力值”。
+
+用来做什么？很简单：  
+**写论文、做展示、朋友圈发疯、吹牛逼的时候用！**
+
+> “这个项目可是 XX 大佬也 Star 过的！”  
+> “我们的开源库被 30 个粉丝过千、总 Star 过万的开发者关注了！”  
+> “我不是在卷，我只是在拿数据说话。”
+
+---
+
+## 🧠 项目原理
+
+1. 输入任意 GitHub 仓库（比如 `TG-Twilight/AWAvenue-Ads-Rule`）。
+2. 抓取所有 Star 了这个项目的 GitHub 用户。
+3. 多线程分析每位用户自己被 Star 的总数（= 影响力指标）。
+4. 顺带统计每位用户的粉丝数（Followers）。
+5. 导出为 Excel 表格，按总 Star 排序。
+
+---
+
+## 🛠️ 使用方式
+
+### 1. 安装依赖
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. 填入 GitHub Token  
+打开 `Starstruck.py`，在 `TOKEN = "在这里填写你的GitHub Token"` 位置填入你的 GitHub personal access token（建议 classic token）。
+
+### 3. 运行脚本
+
+```bash
+python Starstruck.py
+```
+
+按照提示输入目标仓库（例如 `TG-Twilight` 和 `AWAvenue-Ads-Rule`），等待分析完成。
+
+输出示例：
+
+```
+⭐ 前 10 用户（按 Star 总数排序）:
+torvalds: 1290 stars, 12000 followers
+gaearon: 1066 stars, 8000 followers
+...
+✅ 全部数据已保存到 TG-Twilight_AWAvenue-Ads-Rule_Starstruck.xlsx
+```
+
+---
+
+## 📦 输出内容（Excel 文件）
+
+| Username | Total Stars | Followers |
+|----------|-------------|-----------|
+| octocat  | 1230        | 500       |
+| devxyz   | 890         | 2000      |
+| ...      | ...         | ...       |
+
+---
+
+## ⚡ 特性
+
+- ✅ 多线程：分析飞快（默认使用 20 线程）
+- ✅ 支持大项目（几千 Star 用户也不怕）
+- ✅ 输出 Excel，随便怎么用
+- ✅ 附带粉丝数，谁是 GitHub 网红一目了然
+
+---
+
+## 🔒 注意事项
+
+- GitHub API 有速率限制，**强烈建议使用 token**。
+- 本工具仅用于数据探索、社交分析、学术交流等良性用途。
+- 不建议用于黑产或滥用行为，请遵守 GitHub ToS。
+
+---
+
+## 📎 TODO
+
+- [ ] 支持筛选企业用户 / 组织用户
+- [ ] 增加按地域、语言等标签分析
+- [ ] 爬取关注者数量
+
+---
+
+## 🧊 Starstruck 是什么意思？
+
+> /ˈstɑː.strʌk/  
+> “目睹名人时的震惊、仰慕状态。”
+
+用 Star 看 Star，感受“星光熠熠”。
+
+---
+
+## 📬 联系作者
+
+有建议、Bug 或想一起开发？欢迎提 Issue 或 PR！  
+```
