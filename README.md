@@ -4,6 +4,8 @@
 
 # 🧊 Starstruck
 
+___以下大部分内容使用ChatGPT生成，好使，对着使用Live嘟嘟囔囔了一会就给全整出来了，解放双手，要我打这么多字简直太幸苦了😜。___
+
 👀 **Starstruck** 是一个能让你快速统计某个 GitHub 仓库被哪些“显赫人物” Star 过的工具，顺便也能看看这些大佬各自的“影响力值”。
 
 用来做什么？很简单：  
@@ -34,7 +36,10 @@ pip install -r requirements.txt
 ```
 
 ### 2. 填入 GitHub Token  
-打开 `Starstruck.py`，在 `TOKEN = "在这里填写你的GitHub Token"` 位置填入你的 GitHub personal access token（建议 classic token）。
+打开 `Starstruck.py`，在 `TOKEN = "在这里填写你的GitHub Token"` 位置填入你的 GitHub personal access token。
+<br>
+<br>
+[点我生成你自己的GitHub Token](https://github.com/settings/tokens)，建议 classic token，权限仅需 `public_repo` 即可，日期随意。
 
 ### 3. 运行脚本
 
@@ -78,6 +83,7 @@ gaearon: 1066 stars, 8000 followers
 ## 🔒 注意事项
 
 - GitHub API 有速率限制，**强烈建议使用 token**。
+- 如果名称中有空格，请用“-”替换。
 - 本工具仅用于数据探索、社交分析、学术交流等良性用途。
 - 不建议用于黑产或滥用行为，请遵守 GitHub ToS。
 
@@ -102,5 +108,4 @@ gaearon: 1066 stars, 8000 followers
 
 ## 📬 联系作者
 
-有建议、Bug 或想一起开发？欢迎提 Issue 或 PR！  
-```
+有建议、Bug 或想一起开发？欢迎提 Issue 或 PR！
