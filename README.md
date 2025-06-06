@@ -35,6 +35,8 @@
 pip install -r requirements.txt
 ```
 
+什么，无法识别pip命令？哥们，先去Microsoft Store安装 [python](https://apps.microsoft.com/detail/9PNRBTZXMB4Z?hl=neutral&gl=HK&ocid=pdpshare) 吧！
+
 ### 2. 填入 GitHub Token  
 打开 `Starstruck.py`，在 `TOKEN = "在这里填写你的GitHub Token"` 位置填入你的 GitHub personal access token。
 <br>
