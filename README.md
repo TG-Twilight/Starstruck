@@ -1,7 +1,7 @@
 <div align="left">
 <a href="/README.md">中文</a>&nbsp;|&nbsp;
 <a href="/assets/README_en-US.md">English</a> &nbsp;|&nbsp;
-<a href="https://awavenue.top/">友情客串</a> 
+<a href="https://awavenue.top/">友情客串😜</a> 
 </div>
 
 <p align="center">
