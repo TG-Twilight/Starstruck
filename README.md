@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://img.jsdelivr.com/raw.githubusercontent.com/TG-Twilight/Starstruck/main/assets/Starstruck-logo.png">
+   <img src="https://img.jsdelivr.com/raw.githubusercontent.com/TG-Twilight/Starstruck/main/assets/Starstruck.png">
 </p>
 
 # Starstruck
