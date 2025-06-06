@@ -3,6 +3,7 @@
 <a href="/assets/README_en-US.md">English</a> &nbsp;|&nbsp;
 <a href="https://awavenue.top/">友情客串😜</a> 
 </div>
+<br>
 
 <p align="center">
    <img src="https://img.jsdelivr.com/raw.githubusercontent.com/TG-Twilight/Starstruck/main/assets/Starstruck.png">
