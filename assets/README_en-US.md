@@ -11,7 +11,7 @@
 
 # 🧊 Starstruck
 
-*Most of this README was generated with ChatGPT. It’s ridiculously handy—just rambled at it for a bit while watching a live stream and boom, full doc. My fingers thank me 😜.*
+*Most of this content was generated with ChatGPT — super handy! I just talked to it using the “Live” feature for a bit, and it wrote everything out. Total lifesaver — no way I’d type this much myself 😜.*
 
 👀 **Starstruck** is a handy tool that helps you quickly find out **which famous developers have starred a GitHub repository**, along with some fun influence metrics.
 
