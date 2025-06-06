@@ -68,8 +68,8 @@ Example output:
 
 ```
 ⭐ Top 10 users by total stars:
-torvalds: 1290 stars, 12000 followers
-gaearon: 1066 stars, 8000 followers
+Simon: 1290 stars, 12000 followers
+Twilight: 1066 stars, 8000 followers
 ...
 ✅ Data saved to TG-Twilight_AWAvenue-Ads-Rule_Starstruck.xlsx
 ```
@@ -80,8 +80,8 @@ gaearon: 1066 stars, 8000 followers
 
 | Username | Total Stars | Followers |
 |----------|-------------|-----------|
-| octocat  | 1230        | 500       |
-| devxyz   | 890         | 2000      |
+| Jager    | 114514      | 416       |
+| Steve    | 19198       | 2000      |
 | ...      | ...         | ...       |
 
 ---
