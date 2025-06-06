@@ -52,7 +52,7 @@ def get_user_star_count(username):
 def starstruck(owner, repo, max_workers=20):
     users = get_stargazers(owner, repo)
     star_data = []
-    with concurrent.futures.ThreadPool.Executor(max_workers=max_workers) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {executor.submit(get_user_star_count, user): user for user in users}
         for future in tqdm(concurrent.futures.as_completed(futures), total=len(futures)):
             result = future.result()
