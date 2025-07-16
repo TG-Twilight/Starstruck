@@ -25,6 +25,18 @@
 
 ---
 
+## 🚀 项目推荐：网页版 Starstruck（支持 Vercel 部署）
+
+群友基于此项目进行了二次开发，推出了一个 **无需本地运行、开箱即用的网页版 Starstruck**，可以直接部署到 Vercel 使用：
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Rovniced/Star-struck-vercel)
+
+👉 项目地址：[https://github.com/Rovniced/Star-struck-vercel](https://github.com/Rovniced/Star-struck-vercel)  
+
+👉 在线体验：[https://star.awads.cc](https://star.awads.cc/)
+
+---
+
 ## 🧠 项目原理
 
 1. 输入任意 GitHub 仓库（比如 `TG-Twilight/AWAvenue-Ads-Rule`）。
