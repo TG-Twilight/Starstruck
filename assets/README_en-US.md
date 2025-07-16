@@ -25,6 +25,18 @@ What’s it for? Simple:
 
 ---
 
+## 🚀 Project Recommendation: Web-based Starstruck (Vercel Supported)
+
+A community member has forked and further developed this project into a **fully functional, web-based version of Starstruck**, which requires no local setup and can be deployed to Vercel instantly:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Rovniced/Star-struck-vercel)
+
+👉 GitHub Repository: [https://github.com/Rovniced/Star-struck-vercel](https://github.com/Rovniced/Star-struck-vercel)  
+
+👉 Live Demo: [https://star.awads.cc](https://star.awads.cc/)
+
+---
+
 ## 🧠 How It Works
 
 1. You input any GitHub repository (e.g. `TG-Twilight/AWAvenue-Ads-Rule`).
